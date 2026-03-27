@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #11590c, #3e4ab7, #3e4ab7, #11590c);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s ease-in-out;
+}
+
+.welcome {
+    font-size: 2.5rem;
+    color: #11590c;
+    animation: slideIn 1s ease-out;
+}
+
+.message {
+    font-size: 1.2rem;
+    color: #11590c;
+    margin-top: 1rem;
+    animation: fadeIn 3s ease-in-out;
+}
+
+.introduction {
+    margin-top: 2rem;
+    animation: fadeIn 4s ease-in-out;
+}
+
+.introduction h2 {
+    font-size: 2rem;
+    color: #11590c;
+}
+
+.introduction p {
+    font-size: 1rem;
+    color: #11590c;
+}
+
+.program {
+    margin-top: 2rem;
+    animation: fadeIn 5s ease-in-out;
+}
+
+.program h2 {
+    font-size: 2rem;
+    color: #11590c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    border: 1px solid #11590c;
+    padding: 8px;
+}
+
+th {
+    background-color: #11590c;
+    color: white;
+}
+
+td {
+    color: #11590c;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
